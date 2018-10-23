@@ -4745,7 +4745,7 @@ static int	cfg80211_rtw_set_channel(struct wiphy *wiphy
 		chan_offset = HAL_PRIME_CHNL_OFFSET_LOWER;
 		break;
 	default:
-		chan_width = CHANNEL_WIDTH_20;
+		chan_width = CHANNEL_WIDTH_40;
 		chan_offset = HAL_PRIME_CHNL_OFFSET_DONT_CARE;
 		break;
 	}
